@@ -52,6 +52,10 @@ ROOT_URLCONF = 'clusteringapp.urls'
 
 WSGI_APPLICATION = 'clusteringapp.wsgi.application'
 
+TEMPLATE_DIRS = (
+	'/home/tdubz/ClusteringApplication/clusteringapp/clusteringapp/templates',
+)
+
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
